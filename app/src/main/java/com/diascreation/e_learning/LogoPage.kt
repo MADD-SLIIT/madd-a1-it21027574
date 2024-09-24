@@ -9,17 +9,15 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import kotlinx.coroutines.delay
 
-class MainActivity : AppCompatActivity() {
+class LogoPage : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
-
-        supportActionBar?.hide()
+        setContentView(R.layout.activity_logo_page)
 
         Handler ().postDelayed({
-            val intent = Intent (this@MainActivity, LogoPage::class.java)
+            val intent = Intent (this@LogoPage, SignIn::class.java)
             startActivity(intent)
-        },  3000)
+        }, 3000)
     }
-    }
+}
