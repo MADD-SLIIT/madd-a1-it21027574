@@ -4,15 +4,10 @@
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
-    <style name="custom_card_view_style" parent="CardView">
-        <iten name="shapeAppearanceOverlay">@style/custom_card_view</iten>
-    </style>
-    <style name="custom_card_view" parent="">
-    <iten name="cornerFamily">rounded</iten>
-    <iten name="cornerSizeTopRight">48dp</iten>
-    <iten name="cornerSizeTopLeft">48dp</iten>
-    <iten name="cornerSizeBottomLeft">480p</iten>
-    <iten name="cornerSizeBottomRight">48dp</iten>
-    </style>
+
     <style name="Theme.E_Learning" parent="Base.Theme.E_Learning" />
+
+   
+
+
 </resources>
