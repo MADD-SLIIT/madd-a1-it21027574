@@ -16,7 +16,7 @@ class LogoPage : AppCompatActivity() {
         setContentView(R.layout.activity_logo_page)
 
         Handler ().postDelayed({
-            val intent = Intent (this@LogoPage, SignIn::class.java)
+            val intent = Intent (this@LogoPage, GetStarted1::class.java)
             startActivity(intent)
         }, 3000)
     }
