@@ -7,5 +7,7 @@
     <color name="bg1">#4A90E2</color>
     <color name="gray">#D9D9D9</color>
     <color name="bg2">#294F7C</color>
+    <color name="Max_blue">#A8DBFB</color>
+    <color name="Min_blue">#0E5F94</color>
 
 </resources>

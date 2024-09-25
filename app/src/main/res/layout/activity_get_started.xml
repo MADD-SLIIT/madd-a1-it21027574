@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FAFAFA"
+    android:background="#FFFFFF"
     tools:context=".GetStarted">
 
     <TextView
@@ -62,7 +62,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/_306_i402_028_s_m004_c13_people_with_boxes_flat_composition_1" />
+        app:srcCompat="@drawable/people" />
 
     <TextView
         android:id="@+id/textView6"
